@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+*** tfliu   Job: 7052450.sdb   started: 01/06/20 09:31:50   host: mom1 ***
+*** tfliu   Job: 7052450.sdb   started: 01/06/20 09:31:50   host: mom1 ***
+*** tfliu   Job: 7052450.sdb   started: 01/06/20 09:31:50   host: mom1 ***
+*** tfliu   Job: 7052450.sdb   started: 01/06/20 09:31:50   host: mom1 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=240,place=free,walltime=24:00:00
+Resources allocated: cpupercent=16,cput=00:00:04,mem=6724kb,ncpus=240,vmem=157024kb,walltime=06:01:35
+
+*** tfliu   Job: 7052450.sdb   ended: 01/06/20 15:33:23   queue: standard ***
+*** tfliu   Job: 7052450.sdb   ended: 01/06/20 15:33:23   queue: standard ***
+*** tfliu   Job: 7052450.sdb   ended: 01/06/20 15:33:23   queue: standard ***
+*** tfliu   Job: 7052450.sdb   ended: 01/06/20 15:33:23   queue: standard ***
+--------------------------------------------------------------------------------

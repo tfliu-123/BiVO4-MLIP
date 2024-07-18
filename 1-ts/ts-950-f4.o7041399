@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+*** tfliu   Job: 7041399.sdb   started: 25/05/20 17:49:52   host: mom3 ***
+*** tfliu   Job: 7041399.sdb   started: 25/05/20 17:49:52   host: mom3 ***
+*** tfliu   Job: 7041399.sdb   started: 25/05/20 17:49:52   host: mom3 ***
+*** tfliu   Job: 7041399.sdb   started: 25/05/20 17:49:52   host: mom3 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=240,place=free,walltime=24:00:00
+Resources allocated: cpupercent=16,cput=00:00:04,mem=6672kb,ncpus=240,vmem=156968kb,walltime=20:30:47
+
+*** tfliu   Job: 7041399.sdb   ended: 26/05/20 14:20:38   queue: standard ***
+*** tfliu   Job: 7041399.sdb   ended: 26/05/20 14:20:38   queue: standard ***
+*** tfliu   Job: 7041399.sdb   ended: 26/05/20 14:20:38   queue: standard ***
+*** tfliu   Job: 7041399.sdb   ended: 26/05/20 14:20:38   queue: standard ***
+--------------------------------------------------------------------------------

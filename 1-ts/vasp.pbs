@@ -1,0 +1,29 @@
+#!/bin/bash --login
+#PBS -N ts-950-f4
+
+# Select 128 nodes (maximum of 3072 cores)
+#PBS -l select=10
+#PBS -l walltime=24:0:0
+
+# Replace this with your budget code
+#PBS -A e05-react-sok 
+
+module add vasp5
+
+# Move to directory that script was submitted from
+export PBS_O_WORKDIR=$(readlink -f $PBS_O_WORKDIR)
+cd $PBS_O_WORKDIR
+
+aprun -n 240 vasp_std > output
+
+
+
+
+
+
+
+
+
+
+
+

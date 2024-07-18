@@ -1,0 +1,60 @@
+ SYSTEM =  ZnO_Bulk
+
+ Startparameter for this Run:
+   #NWRITE =      2
+   #LPETIM=F    write-flag & timer
+   ISTART =      1    job   : 0-new  1-cont  2-samecut
+LWAVE =T
+LCHARG =F
+ADDGRID=T
+
+KPAR = 24
+NCORE = 12
+NBANDS = 60
+LREAL = F
+###METAGGA=SCAN
+
+ Electronic Relaxation 1
+   PREC   = Accurate
+   ENMAX  = 950.00 eV
+   NELM   =     200
+   #INIWAV = 1         random initial wavefunctions
+   EDIFF = 1E-08 
+ Ionic Relaxation
+   EDIFFG = -0.0004     stopping-criterion for IOM
+   NSW    =     500     number of steps for IOM
+   NBLOCK =      1;   KBLOCK =     40    inner block; outer block
+   IBRION =      1    ionic relax: 0-MD 1-quasi-New 2-CG
+   ISIF   =      3    stress and relaxation
+   IWAVPR =      1    prediction:  0-non 1-charg 2-wave 3-comb
+   ISYM   =      1    0-nonsym 1-usesym
+   LCORR  =      T    Harris-correction to forces
+   ISMEAR =      -5
+  SIGMA=0.01
+!!Hybrid-DFT Calculations:
+ LHFCALC = .TRUE. (Activate HF)
+ PRECFOCK = FAST  
+ !!ENCUTFOCK = 0    (Reduced HF FFT grid--Cheaper, but loose accuracy)
+ !!NKRED   =   2    (Reduce k-grid: even k only)
+ !!ALGO    = DAMPED (Dampen: IALGO=53: Metals/Insulators)
+ IALGO    = 38    (IALGO=58: Insulators--Converges best)
+ TIME    = 0.30   (Timestep for IALGO5X)
+ HFLMAX  = 4      (Max. quantum number: 4d,6f)
+ !!HFSCREEN= 0.207  (Switch to screened exchange-HSE06)
+ AEXX    = 0.60   (X% HF exchange)
+
+  LASPH = .TRUE.
+  LORBIT = 11
+  SYMPREC = 1E-04
+  GGA = PS
+  
+!!Defect calculations:
+  !!LVTOT = .TRUE.  
+  !!NPAR = 
+  !!KPAR =
+  !!NUPDOWN = 
+  !!NELECT
+  !!POTIM = 0.02
+  
+
+
