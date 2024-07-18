@@ -1,0 +1,10 @@
+device: cuda
+fmax: 0.001
+arch: mace_mp
+steps: 1000
+fully-opt: True
+optimizer: LBFGS
+calc-kwargs:
+      dispersion: True
+      model: ../../models/mace_agnesi_medium.model
+ 
