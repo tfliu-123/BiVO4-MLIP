@@ -1,0 +1,2 @@
+#Total DFT energy:
+-163.20295402 eV
